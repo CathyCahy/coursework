@@ -47,10 +47,10 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "В штат принят сотрудник " + id +
+        return "Cотрудник " + id +
                 " " + name +
-                ", в отдел " + department +
-                ", с зарплатой " + salary +
+                ", отдел " + department +
+                ", зарплата " + salary +
                 "рублей.";
     }
 
